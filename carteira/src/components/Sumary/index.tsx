@@ -1,13 +1,17 @@
+// import { useContext } from 'react';
 import { Container } from "./style";
 import incomeImg from "../../assets/income.svg";
 import outcomeImg from "../../assets/outcome.svg";
 import totalImg from "../../assets/total.svg";
 
+// import { TransactionsContext } from "../../TransactionsContext";
 
 export function Sumary() {
+    // const data = useContext(TransactionsContext);
+
     return(
-        <>
-            <Container>
+
+        <Container>
             <div> 
                     <header>
                         <p>Entradas</p>
@@ -30,8 +34,7 @@ export function Sumary() {
                     <strong>R$500,00</strong>
             </div>
             
-            </Container>
-            
-        </>
+        </Container>
+
     )
 }
